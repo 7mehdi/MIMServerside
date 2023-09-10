@@ -28,7 +28,7 @@
     "webrtc-adapter": "^8.2.2"
   },
   "scripts": {
-    "start": "concurrently \"node ServerSide/gestion.js\" \"node ServerSide/server.js\"  \"node ServerSide/article.js\"",
+    "start": "concurrently \"node ./gestion.js\" \"node ./server.js\"  \"node ./article.js\"",
     "fire": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
